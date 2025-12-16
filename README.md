@@ -52,7 +52,7 @@ ARYA acts as a **virtual AI stylist** that:
 
 ### 1️⃣ Clone the Repository
 ```
-git clone https://github.com/your-username/arya-omnichannel-prototype.git
+git clone https://github.com/ZeelBarot/arya-omnichannel-prototype.git
 cd arya-omnichannel-prototype
 ```
 
