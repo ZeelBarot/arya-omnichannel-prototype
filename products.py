@@ -1,26 +1,41 @@
 products = [
     {
         "id": 1,
-        "name": "Eco Festive Dress",
-        "price": 1999,
-        "tag": "Sustainable",
-        "stock": 0,
+        "name": "Brown Solid Formal Blazer",
+        "price": 1749,
+        "tag": "Formal",
+        "stock": 10,
         "images": [
-            "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab",
-            "https://images.unsplash.com/photo-1520975916090-3105956dac38",
-            "https://images.unsplash.com/photo-1542068829-1115f7259450"
+            "https://imagescdn.pantaloons.com/img/app/product/9/976493-12848517.jpg?auto=format&w=400",
+            "https://imagescdn.pantaloons.com/img/app/product/9/976493-12848518.jpg?auto=format&w=400",
+            "https://imagescdn.pantaloons.com/img/app/product/9/976493-12848519.jpg?auto=format&w=400",
+            "https://imagescdn.pantaloons.com/img/app/product/9/976493-12848520.jpg?auto=format&w=400"
         ]
     },
     {
         "id": 2,
-        "name": "Festive Kurta",
-        "price": 1499,
+        "name": "Maroon Printed Festive Ethnic Dress",
+        "price": 3219,
         "tag": "Festive",
         "stock": 10,
         "images": [
-            "https://images.unsplash.com/photo-1602810318660-d2c46b7505f7",
-            "https://images.unsplash.com/photo-1618354691373-1b2c9b5f6a38",
-            "https://images.unsplash.com/photo-1600185365483-26d7a4cc7519"
+            "https://imagescdn.pantaloons.com/img/app/product/4/40094472-22439319.jpg?auto=format&w=400",
+            "https://imagescdn.pantaloons.com/img/app/product/4/40094472-22439320.jpg?auto=format&w=400",
+            "https://imagescdn.pantaloons.com/img/app/product/4/40094472-22439321.jpg?auto=format&w=400",
+            "https://imagescdn.pantaloons.com/img/app/product/4/40094472-22439322.jpg?auto=format&w=400"
+        ]
+    },
+    {
+        "id": 3,
+        "name": "Cream Embroidered Relaxed Shirt",
+        "price": 799,
+        "tag": "Embroidered",
+        "stock": 10,
+        "images": [
+            "https://imagescdn.pantaloons.com/img/app/product/1/1171190-22205431.jpg?auto=format&w=400",
+            "https://imagescdn.pantaloons.com/img/app/product/1/1171190-22205432.jpg?auto=format&w=400",
+            "https://imagescdn.pantaloons.com/img/app/product/1/1171190-22205433.jpg?auto=format&w=400",
+            "https://imagescdn.pantaloons.com/img/app/product/1/1171190-22205434.jpg?auto=format&w=400"
         ]
     }
 ]
