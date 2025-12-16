@@ -51,6 +51,24 @@ ARYA acts as a **virtual AI stylist** that:
 ## 🧪 How to Run Locally
 
 ### 1️⃣ Clone the Repository
-```bash
+```
 git clone https://github.com/your-username/arya-omnichannel-prototype.git
 cd arya-omnichannel-prototype
+```
+
+### 2️⃣ Create Virtual Environment
+```
+python -m venv .venv
+source .venv/bin/activate    # macOS/Linux
+.venv\Scripts\activate       # Windows
+```
+
+### 3️⃣ Install Dependencies
+```
+pip install -r requirements.txt
+```
+
+### 4️⃣ Run the Application
+```
+streamlit run app.py
+```
