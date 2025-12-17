@@ -1,8 +1,9 @@
 import streamlit as st
 import time
-import requests
 from streamlit_lottie import st_lottie
 from products import products
+import json
+
 
 # --------------------------------------------------
 # PAGE CONFIG
@@ -106,7 +107,7 @@ if st.session_state.channel == "Mobile":
 st.markdown(
     """
 <div class="hero fade">
-ARYA – Omnichannel AI Stylist 👗<br>
+ARYA – Omnichannel AI Stylist<br>
 <span style="font-size:16px;font-weight:500;">
 Powered by Agentic AI for Modern Retail
 </span>
@@ -127,17 +128,22 @@ st.markdown(
 # --------------------------------------------------
 # LOAD LOTTIE
 # --------------------------------------------------
-def load_lottie(url):
-    r = requests.get(url)
-    if r.status_code != 200:
-        return None
-    return r.json()
 
+def load_lottie_file(filepath):
+    with open(filepath, "r", encoding="utf-8") as f:
+        return json.load(f)
 
-arya_lottie = load_lottie(
-    "https://assets10.lottiefiles.com/packages/lf20_1pxqjqps.json"
+headphone_lottie = load_lottie_file(
+    "lottie/headphone_with_blueberry_cartoon.json"
 )
-st_lottie(arya_lottie, height=260, speed=1, loop=True)
+
+st_lottie(
+    headphone_lottie,
+    height=260,
+    speed=1,
+    loop=True
+)
+
 
 # --------------------------------------------------
 # CHAT TYPING BUBBLES
