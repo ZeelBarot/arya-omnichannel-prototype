@@ -3,7 +3,7 @@
 ARYA is an **AI-powered omnichannel conversational sales assistant** built for modern retail experiences.  
 It enables a **seamless shopping journey across mobile, web, and in-store kiosks** while providing personalized fashion recommendations with sustainability awareness.
 
-This project was developed as part of **EY Techathon 6.0 – Retail Challenge (Omnichannel Conversational Sales Agent)**.
+This project was developed as part of **EY Techathon 6.0 – Retail Challenge (Omnichannel Conversational Sales Agent)**
 
 ---
 
